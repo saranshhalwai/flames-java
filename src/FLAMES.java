@@ -59,9 +59,9 @@ public class FLAMES {
     public static void main(String[] args) throws IOException {
         Scanner scan = new Scanner(System.in);
         System.out.println("name 1 =");
-        String name = scan.nextLine();
+        String name = scan.nextLine().toLowerCase();
         System.out.println("name 2 =");
-        String name1 = scan.nextLine();
+        String name1 = scan.nextLine().toLowerCase();
         char[] a;
         a = stringToArray(name);
         char[] b;
